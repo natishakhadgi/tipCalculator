@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     //Names of the objects created
+    @IBOutlet weak var splitControl: UIStepper!
+    @IBOutlet weak var splitLabel: UILabel!
     @IBOutlet weak var tipPercentage: UILabel!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
@@ -37,12 +39,14 @@ class ViewController: UIViewController {
         //If not valid input, replace with 0
         let bill = Double(billField.text!) ?? 0
         
-        //Calculate tip & total
+        //Calculate split, tip, & total
+        let splitDisplay = splitControl.value
         let tipDisplay = Double(tipControl.value) * 100
         let tip = bill * Double(tipControl.value)
-        let total = bill + tip
+        let total = (bill + tip)/splitDisplay
         
-        //Update tip & total labels
+        //Update split, tip, & total labels
+        splitLabel.text = String(format: "Split: %.0f", splitDisplay)
         tipPercentage.text=String(format: "%.0f%% Tip", tipDisplay)
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
