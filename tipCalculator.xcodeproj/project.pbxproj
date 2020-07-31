@@ -14,6 +14,8 @@
 		B21FD64C24C6930400E8F097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B21FD64A24C6930400E8F097 /* LaunchScreen.storyboard */; };
 		B21FD65724C6930400E8F097 /* tipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21FD65624C6930400E8F097 /* tipCalculatorTests.swift */; };
 		B21FD66224C6930400E8F097 /* tipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21FD66124C6930400E8F097 /* tipCalculatorUITests.swift */; };
+		B23329FF24D3EFAB003BEADA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23329FE24D3EFAB003BEADA /* SettingsViewController.swift */; };
+		B2834A5524D3F37F00E78825 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2834A5424D3F37F00E78825 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B21FD65D24C6930400E8F097 /* tipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21FD66124C6930400E8F097 /* tipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipCalculatorUITests.swift; sourceTree = "<group>"; };
 		B21FD66324C6930400E8F097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23329FE24D3EFAB003BEADA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = SOURCE_ROOT; };
+		B2834A5424D3F37F00E78825 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		B21FD63524C6930200E8F097 = {
 			isa = PBXGroup;
 			children = (
+				B2834A5424D3F37F00E78825 /* SettingsViewController.swift */,
 				B21FD64024C6930200E8F097 /* tipCalculator */,
 				B21FD65524C6930400E8F097 /* tipCalculatorTests */,
 				B21FD66024C6930400E8F097 /* tipCalculatorUITests */,
@@ -100,6 +105,7 @@
 				B21FD64124C6930200E8F097 /* AppDelegate.swift */,
 				B21FD64324C6930200E8F097 /* ViewController.swift */,
 				B21FD64524C6930200E8F097 /* Main.storyboard */,
+				B23329FE24D3EFAB003BEADA /* SettingsViewController.swift */,
 				B21FD64824C6930400E8F097 /* Assets.xcassets */,
 				B21FD64A24C6930400E8F097 /* LaunchScreen.storyboard */,
 				B21FD64D24C6930400E8F097 /* Info.plist */,
@@ -258,6 +264,8 @@
 			files = (
 				B21FD64424C6930200E8F097 /* ViewController.swift in Sources */,
 				B21FD64224C6930200E8F097 /* AppDelegate.swift in Sources */,
+				B23329FF24D3EFAB003BEADA /* SettingsViewController.swift in Sources */,
+				B2834A5524D3F37F00E78825 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
